@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <title>My Task List</title>
+</head>
+<body>
+    <h1>TO DO LIST</h1>
+    <div id="task-form-container">
+        <form id="task-form">
+            <label for="task-input">Add a Task</label>
+            <input type="text" name="task" id="task-input">
+            <input type="submit" value="Submit Task" id="task-submit">
+        </form>
+    </div>
+    <h2>TASKS</h2>
+    <div id="tasks-filter-container">
+        <label for="tasks-filter">Filter Tasks</label>
+        <input type="text" id="tasks-filter">
+    </div>
+    <br>
+    <div id="tasks-clear-container">
+        <label for="tasks-clear"></label>
+        <input type="button" value="Clear Tasks" id="tasks-clear">
+    </div>
+    <div id="task-list-container">
+        <ul id='task-list'></ul>
+    </div>
+
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
